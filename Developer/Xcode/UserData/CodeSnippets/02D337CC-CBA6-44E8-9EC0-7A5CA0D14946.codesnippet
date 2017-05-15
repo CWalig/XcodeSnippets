@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>lazy var &lt;#name#&gt;: UIImageView = {
-    let &lt;#name#&gt; = UIImageView(frame: CGRectZero)
+    let &lt;#name#&gt; = UIImageView(frame: CGRect.zero)
     return &lt;#name#&gt;
 }()</string>
 	<key>IDECodeSnippetIdentifier</key>

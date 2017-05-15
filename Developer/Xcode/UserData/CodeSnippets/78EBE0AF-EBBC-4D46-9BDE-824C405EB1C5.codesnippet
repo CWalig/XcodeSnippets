@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>lazy var &lt;#name#&gt;: UILabel = {
-    let &lt;#name#&gt; = UILabel(frame: CGRectZero)
+    let &lt;#name#&gt; = UILabel(frame: CGRect.zero)
     return &lt;#name#&gt;
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>

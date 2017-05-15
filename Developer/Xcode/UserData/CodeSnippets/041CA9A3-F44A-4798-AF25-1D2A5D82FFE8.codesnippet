@@ -9,9 +9,9 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    lazy var rainButton: UIButton = {
-        let rainButton = UIButton(frame: CGRectZero)
-        return rainButton
+	<string>    lazy var &lt;#name#&gt;: UIButton = {
+        let &lt;#name#&gt; = UIButton(frame: CGRect.zero)
+        return &lt;#name#&gt;
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>041CA9A3-F44A-4798-AF25-1D2A5D82FFE8</string>

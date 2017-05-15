@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>lazy var &lt;#name#&gt;: UIScrollView = {
-    let &lt;#name#&gt; = UIScrollView(frame: CGRectZero)
+    let &lt;#name#&gt; = UIScrollView(frame: CGRect.zero)
     return &lt;#name#&gt;
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>
