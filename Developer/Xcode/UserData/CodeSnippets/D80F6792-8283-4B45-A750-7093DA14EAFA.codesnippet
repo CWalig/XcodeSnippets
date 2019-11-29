@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>__constraints</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSLayoutConstraint.activate([
+    self.&lt;# view1 #&gt;.topAnchor.constraint(equalTo: self.&lt;# view2 #&gt;.topAnchor),
+    self.&lt;# view1 #&gt;.leadingAnchor.constraint(equalTo: self.&lt;# view2 #&gt;.leadingAnchor),
+    self.&lt;# view1 #&gt;.trailingAnchor.constraint(equalTo: self.&lt;# view2 #&gt;.trailingAnchor),
+    self.&lt;# view1 #&gt;.bottomAnchor.constraint(equalTo: self.&lt;# view2 #&gt;.bottomAnchor),
+])</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D80F6792-8283-4B45-A750-7093DA14EAFA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NSLayoutConstraint.activate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
