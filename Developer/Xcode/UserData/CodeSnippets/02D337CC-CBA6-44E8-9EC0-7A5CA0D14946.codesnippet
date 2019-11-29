@@ -11,6 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>lazy var &lt;#name#&gt;: UIImageView = {
     let &lt;#name#&gt; = UIImageView(frame: CGRect.zero)
+    &lt;#name#&gt;.translatesAutoresizingMaskIntoConstraints = false
     return &lt;#name#&gt;
 }()</string>
 	<key>IDECodeSnippetIdentifier</key>

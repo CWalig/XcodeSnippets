@@ -11,8 +11,9 @@
 	<key>IDECodeSnippetContents</key>
 	<string>lazy var &lt;#name#&gt;: UILabel = {
     let &lt;#name#&gt; = UILabel(frame: CGRect.zero)
+    &lt;#name#&gt;.translatesAutoresizingMaskIntoConstraints = false
     return &lt;#name#&gt;
-    }()</string>
+}()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>78EBE0AF-EBBC-4D46-9BDE-824C405EB1C5</string>
 	<key>IDECodeSnippetLanguage</key>

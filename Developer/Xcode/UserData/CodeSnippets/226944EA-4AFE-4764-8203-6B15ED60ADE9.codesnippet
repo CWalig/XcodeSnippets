@@ -3,28 +3,35 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>__uiview</string>
+	<string>__uicollectionview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>lazy var &lt;#name#&gt;: UIView = {
-    let &lt;#name#&gt; = UIView(frame: CGRect.zero)
+	<string>lazy var flowlayout: UICollectionViewFlowLayout = {
+    let flowlayout = UICollectionViewFlowLayout()
+    flowlayout.scrollDirection = UICollectionView.ScrollDirection.vertical
+    return flowlayout
+}()
+
+lazy var &lt;#name#&gt;: UICollectionView = {
+    let &lt;#name#&gt; = UICollectionView(frame: CGRect.zero, collectionViewLayout: self.flowlayout)
     &lt;#name#&gt;.translatesAutoresizingMaskIntoConstraints = false
+    &lt;#name#&gt;.register(TaskCell.self, forCellWithReuseIdentifier: TaskCell.identifier)
     return &lt;#name#&gt;
 }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>52D02557-9E78-4C82-A9C1-D7C6F00C7EFD</string>
+	<string>226944EA-4AFE-4764-8203-6B15ED60ADE9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Create a lazy UIView in Swift</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift - Lazy UIView</string>
+	<string>Swift - Lazy UICollectionView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

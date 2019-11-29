@@ -11,8 +11,9 @@
 	<key>IDECodeSnippetContents</key>
 	<string>lazy var &lt;#name#&gt;: UIScrollView = {
     let &lt;#name#&gt; = UIScrollView(frame: CGRect.zero)
+    &lt;#name#&gt;.translatesAutoresizingMaskIntoConstraints = false
     return &lt;#name#&gt;
-    }()</string>
+}()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>89AA55E1-EE95-434C-A839-CE164AD5A262</string>
 	<key>IDECodeSnippetLanguage</key>
